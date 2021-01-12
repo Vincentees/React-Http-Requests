@@ -25,6 +25,9 @@ class Blog extends Component {
                         posts:updatedPosts
                     })
                     //console.log(response)
+                })
+                .catch(error=>{
+                    console.log(error)
                 });
     }
     postSelectedHandler=(id)=>{
